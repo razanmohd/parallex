@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+}
+h1{
+    text-align: center;
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    
+}
+
+nav ul li a{
+    margin: 30px;
+    color: darkred;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+#vd1{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+}
+#vd2{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+}
+#vd3{
+    width: 100%;
+    height: 859px;
+    background-size: cover;
+}
+
+
+
+
+
+h1{
+    font-size: 25px;
+}
+
+.about{
+    text-align: center;
+}
+.about h2{
+    color: darkred;
+    padding: 50px;
+    font-weight: 450;
+    
+}
+
+.abt h3{
+    margin-bottom: 30px;
+}
+
+
+
+
+.achievments {
+    text-align: center;
+}
+
+.pic{
+    display: flex;
+}
+.pic p{
+    text-align: justify;
+    margin: 10px;
+
+}
+
+.pic img{
+    width: 585px;
+    height: 379px;
+    padding: 20px;
+}
+.achievments h2{
+    color: darkred;
+    font-weight: 450;
+}
+
+.achievments h3{
+    color: red;
+    text-align: justify;
+    margin: 10px;
+}
+.about video{
+    height: 800px;
+    padding: 20px;
+
+}
+
+.achvmnts h3{
+    margin-left: 200px;
+}
+
+.abt{
+
+    display: flex;
+}
+.inter p{
+    margin-left: 166px;
+    padding: 20px;
+    font-size: 16px;
+}
+.inter h3{
+    margin-left: 420px;
+    padding: 20px;
+    color: red;
+}
+.international{
+    display: flex;
+}
+.national img{
+    width: 600px;
+    height: 460px;
+    padding: 20px;
+    margin-left: 300px;
+}
+
+.goals img{
+    height: 600px;
+    width: 800px;
+    margin-left: 350px;
+}
+
+.goals img:hover{
+    scale: 1.10;
+    transition: all 2s;
+}
+.goals{
+    justify-content: center;
+}
+.goals p{
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    font-size: 22px;
+}
+.iconic h1{
+    text-align: center;
+    color: darkred;
+    padding: 20px;
+    font-weight: 500;
+}
+
+#freekick{
+    height: 600px;
+    width: 900px;
+    margin-left: 310px;
+}
+
+.row{
+    width: 100%;
+    height: 620px;
+    display: flex;
+ 
+
+}
+
+.col{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.col img{
+    width: 250px;
+    height: 380px;
+}
+
+.col p{
+    text-align: center;
+}
+
+#cr1{
+    height: 570px;
+    width: 500px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top,darkolivegreen,white,white);
+    padding-top: 50px;
+    transition: all 1.5s;
+}
+
+#cr2{
+    height: 570px;
+    width: 500px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top,darkred,white,white);
+    padding-top: 50px;
+    transition: all 1.5s;
+}
+
+#cr3{
+    height: 570px;
+    width: 500px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top,rgb(86, 86, 153),white,white);
+    padding-top: 50px;
+    transition: all 1.5s;
+}
+
+#cr4{
+    height: 570px;
+    width: 500px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top,rgb(121, 121, 121),white,white);
+    padding-top: 50px;
+    transition: all 1.5s;
+}
+
+#cr5{
+    height: 570px;
+    width: 500px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top,rgb(253, 140, 2),white,white);
+    padding-top: 50px;
+    transition: all 1.5s;
+}
+
+
+#juv{
+    color: white;
+}
+
+#real{
+    color: white;
+}
+
+
+
+#man{
+    color: white;
+}
+
+#sport{
+    color: white;
+}
+
+#alnassr{
+    color: white;
+}
+
+.row:hover .col{
+    opacity: 1px;
+    filter: blur(3px);
+}
+
+.row .col:hover{
+    opacity: 1px;
+    filter: blur(0px);
+    transform: scale(1.1);
+}
+
+#cr1 h2{
+    color: rgb(143, 181, 77);
+    font-weight:350;
+}
+
+#cr2 h2{
+    color: darkred;
+    font-weight: 350;
+}
+
+#cr3 h2{
+    color: rgb(86, 86, 153);
+    font-weight: 350;
+}
+
+#cr4 h2{
+    color: rgb(121, 121, 121);
+    font-weight: 350;
+}
+
+#cr5 h2{
+    color: rgb(253, 140, 2);
+    font-weight: 350;
+}
+
+#clu{
+    color: darkred;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
