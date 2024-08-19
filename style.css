@@ -111,6 +111,11 @@ h1{
     margin-left: 200px;
 }
 
+.achvmnts p{
+    color: white;
+    font-weight: bolder;
+}
+
 .abt{
 
     display: flex;
@@ -119,6 +124,8 @@ h1{
     margin-left: 166px;
     padding: 20px;
     font-size: 16px;
+    color: white;
+    font-weight: bolder;
 }
 .inter h3{
     margin-left: 420px;
@@ -309,6 +316,27 @@ h1{
 #clu{
     color: darkred;
     font-weight: 500;
+}
+
+#clubs{
+    background-image: url(./cristiano.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#achievments{
+    background-image: url(./cristiano.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#international{
+    background-image: url(./cristiano.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
